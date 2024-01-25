@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="icons/font/flaticon.css">
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+</head>
+<body>
+
+        <!-- #################### Header Section ########################## -->
+        <section class="scroll-white">
+            <header class="container">
+                <a href="index.html" class="logo">MyLife</a>
+              
+                  
+            <ul class="nav-menu">
+                <li class="nav-link"><a class="nav-dark" href="index.html">Home</a></li>
+                <li class="nav-link"><a class="nav-dark" href="apply.html">Apply</a></li>
+                <li class="nav-link"><a class="nav-dark" href="blog.html">Blog</a></li>
+                <li class="nav-link"><a class="nav-dark"  href="about.html">About</a></li>
+                <li class="nav-link"><a class="nav-dark"  id="modalBtn" href="#">Sign in</a></li>
+                <li class="nav-link"><a class="nav-dark"  id="sendBtn" href="#">Contact</a></li>
+            </ul>
+                <div class="hamburger">
+                    <span class="bar-dark"></span>
+                    <span class="bar-dark"></span>
+                    <span class="bar-dark"></span>
+                </div>
+            </header>
+        </section><br><br><br><br>
+       
+
+
+
+    <!-- small image -->
+    <div class="image_in">
+        <!-- deer image -->
+    </div>
+
+
+  
+          <!-- Sign In Modal -->
+          <div class="login-section" id="simpleModal">
+            <div class="login__wrapper card-p">
+                <div class="right-end">
+                    <span id="closeBtn" class="closebtn">&times;</span>
+                </div>
+                
+                <h1 class="t-center smallextra">Login</h1>
+                <form action="">
+                <div class="result btmline">
+                <div class="input-place">
+                    <input type="text" placeholder="email or username">
+                </div>
+                <div class="input-place">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="blue__btn22 f-width py-1">Sign In</button>
+                <a href="" class="t-center myb-50">Forgot Password?</a>
+                <h3 class="t-center myb-50">Or</h3>
+                <p class="t-center myb-50">Login With</p>
+                <div class="login__icons">
+                    <div class="login__icon1 myb-50">
+                       <a href="" class="icon-google">
+                        <span class="bf-normal">Gmail</span>
+                       </a> 
+                    </div>
+                    <div class="login__icon2 myb-50">
+                        <a href="" class="icon-facebook">
+                        <span class="bf-normal">Facebook</span>
+                        </a>
+                        
+                    </div>
+                </div>
+              
+            </div>
+            <p class="t-center myb-50 myt-10">Don't have an Account? Create one</p>
+            <div class="t-center py-1 myb-10 modal__create">
+               <a href="#modalBtn" id="newAccount">
+                Create Account
+               </a>
+            </div>
+             </form>
+             </div>
+        </div>
+        <!-- End of Login Modal -->
+
+
+    <!-- Register Modal -->
+   <div class="register-section" id="registerModal">
+    <div class="register__wrapper card-p">
+        <div class="right-end">
+            <span id="rcloseBtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="t-center smallextra">Register</h1>
+        <form action="">
+        <div class="result btmline">
+        <div class="input-place">
+            <input type="text" placeholder="Full name">
+        </div>
+        <div class="input-place">
+            <input type="text" placeholder="email">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Re-enter Password">
+        </div>
+        <button class="blue__btn22 f-width py-1">Register</button>
+      
+    </div>
+    <p class="t-center myb-50 myt-10">Already have an Account? Sign In <a href="#simpleModal" id="backLogin">here</a></p>
+   
+     </form>
+     </div>
+</div>
+<!-- End of Register Modal -->
+
+<!-- Contact Form Modal -->
+<div class="cmodal-section" id="contactModal">
+    <div class="cmodal__wrapper container card-p">
+        <div class="right-end">
+            <span id="cclosebtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="smallextra">Get In Touch</h1>
+        <div class="main__cmodal">
+            <div class="cmodal__form">
+                <form action="" >
+                    <div class="new__comment">
+                        <div class="personal comment__input">
+                            <input type="text" placeholder="Firstname">
+                            <input type="text" placeholder="Lastname">
+                        </div>   
+                        <div class="comment__input my-10">
+                            <input type="email" placeholder="Enter Email">
+                        </div>
+                        <div class="comment__input my-10">
+                            <textarea type="text" name="comment-new" id=""></textarea>
+                        </div>
+                    </div>
+                    <div class="right-end">
+                        <button class="blue__btn" type="submit">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="cmodal__info">
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-envelope"></a>
+                    <p>info@mylife.com</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-location-arrow"></a>
+                    <address>MyLife Skills Education Center<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class=" icon-phone2"></a>
+                    <p>  +(265)0112923832</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-clock-o"></a>
+                    <p>Monday - Friday <br>8:30am to 4:30pm</p>
+                </div>
+                <p>We will get back to you Shortly. We are right here at your service.</p>
+            </div>
+        </div>
+    </div>
+     </form>
+     </div>
+</div>
+<!-- End Contact Form Modal-->
+
+
+
+
+
+
+   <!-- ||||||||    Form ||||||||||||||||||||||||| -->
+   
+   <section class="personal-information">
+        <div class="container">
+            <p class="myb-10">Before starting an application, there are several important things that should be done. It is better you  register an account before starting an application. You can click on the Sign in link in the navigation on top.<br><br>
+            
+            It's also important to note that applicants should a minimum of 6 credits to be eligible for application.
+            </p>
+                <h1 class="center_head">Personal Information</h1>
+            <form action="submit" class="main-form">
+               <div class="personal">
+                    <div class="input-place">
+                        <label for="firstname" id="first-name">Firstname</label>
+                        <input type="text" class="f-firstname">
+                    </div>
+                   <div class="input-place">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" class="f-lastname">
+                    </div>  
+                </div>   
+                
+                <div class="nd-personal">
+                    <div class="input-place">
+                        <label for="dtb" id="f-dtb">Date of Birth</label>
+                        <input type="date" class="dtb-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="country">Country</label>
+                        <input type="text" class="country-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="city">City</label>
+                        <input type="text" class="city-input">
+                    </div>
+                </div>
+
+                <div class="personal">
+                    <div class="input-place">
+                        <label for="address" id="Address-1">Address line 1</label>
+                        <input type="text" class="ad1">
+                    </div>
+                    <div class="input-place">
+                        <label for="address">Adress line 2</label>
+                        <input type="text" class="ad2">
+                    </div>
+                </div>
+
+                <div class="nd-personal">
+                    
+                    <!-- ########### Last Row -->
+                    <div class="input-place">
+                        <label for="Email" id="f-email">Email Address</label>
+                        <input type="email" class="email-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="Phone">Phone Number</label>
+                        <input type="text" class="phone-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="Whatsapp">Whatsapp Number</label>
+                        <input type="text" class="whatsapp-input">
+                    </div>
+                </div>
+                
+                <h1 class="center_head myt-10">Education</h1>
+
+                <!-- ################### Education ################## -->
+                <div class="nd-personal">
+                    <div class="input-place">
+                        <label for="points">MSCE Scores (Points)</label>
+                        <input type="text" class="mscepoints-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="Year">Year</label>
+                        <input type="date" class="msceyear-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="sitting">Sitting</label>
+                        <input type="text" class="sitting-input">
+                    </div>
+                </div>
+
+                <div class="personal">
+                    <div class="input-place">
+                        <label for="School" id="school-name">School Name</label>
+                        <input type="text" class="school-input">
+                    </div>
+                    <div class="input-place">
+                        <label for="District">District</label>
+                        <input type="text" class="district-input">
+                    </div>
+                </div>
+
+                <div class="gray-line"></div>
+
+                
+                <h1 class="center_head myb-50 myt-10">Results</h1>
+
+                <p class="py-20 myb-10">Please list all the subjects that you passed on your MSCE results. Make sure to indicate the points 
+                    as well.</p>
+
+                    <div class="result-heading">
+                        <h3>Subject/Discipline</h3>
+                        <h3>Points Scored</h3>
+                        <h3>Year</h3>
+                    </div>
+                <div class="results">
+                    <div class="result">
+                        <h2 class="small-results">Subject 1</h2>
+                        <div class="input-place">
+                            <input type="text" placeholder="subject 1">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Points for subject 1">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Year you sat for subject 1">
+                        </div>
+                        <h2 class="small-results">Subject 2</h2>
+                        <div class="input-place">
+                            <input type="text" placeholder="subject 2">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Points for subject 2">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Year you sat for subject 2">
+                        </div>
+                        <h2 class="small-results">Subject 3</h2>
+                        <div class="input-place">
+                            <input type="text" placeholder="subject 3">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Points for subject 3">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Year you sat for subject 3">
+                        </div>
+                        <h2 class="small-results">Subject 4</h2>
+                        <div class="input-place">
+                            <input type="text" placeholder="subject 4">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Points for subject 4">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Year you sat for subject 4">
+                        </div>
+                        <h2 class="small-results">Subject 5</h2>
+                        <div class="input-place">
+                            <input type="text" placeholder="subject 5">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Points for subject 5">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Year you sat for subject 5">
+                        </div>
+                        <h2 class="small-results">Subject 6</h2>
+                        <div class="input-place">
+                            <input type="text" placeholder="subject 6">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Points for subject 6">
+                        </div>
+                        <div class="input-place">
+                            <input type="text" placeholder="Year you sat for subject 6">
+                        </div>
+                    </div>
+                </div>    
+
+                <p class="py-20">Upload your MSCE Certificate and Transcripts. Only PDF and JPG allowed. </p>
+                <div class="file__uploads">
+                    <div class="file__name myt-10">
+                        <p>MSCE Certificate:</p>
+                        <input type="file" id="myFile" name="msce__certificate">
+                    </div>    
+                    <div class="file__name myt-10">
+                        <p>Medical Report:</p>
+                        <input type="file" id="myFile" name="Police__Clearance">
+                    </div>    
+                    <div class="file__name myt-10">
+                        <p>Police Clearance:</p>
+                        <input type="file" id="myFile" name="medical__report">
+                    </div>    
+                    <div class="file__name myt-10">
+                        <p>ID / Passport:</p>
+                        <input type="file" id="myFile" name="National__ID">
+                    </div>   
+            </div>
+
+            <div class="fee">
+                <h2>You can Choose from the two options below to pay your application fee.</h2>
+                <div class="checkout">
+                    <div class="tnm">
+                        <h3>Pay with TNM</h3>
+                        <img src="icons/mw-tnm-logo.png"  alt="">
+                        <a href="" class="bw__btn">Pay with TNM</a>
+                    </div>
+                    <div class="airtel">
+                        <h3>Pay with AirTel</h3>
+                        <img src="icons/797d4617-ng-airtel-logo.png" alt="">
+                        <a href="" class="bw__btn">Pay with Airtel</a>
+                    </div>
+                </div>
+            </div>
+                   
+            <div class="final__subm">
+                <button type="submit">Submit</button>
+            </div>
+            </form>
+        </div>        
+</section>
+
+
+
+
+
+
+<!-- Footer Section -->
+<section class="footer ">
+    <div class="container">
+        <div class="main-footer footer-content .px-10">
+            <div class="about__mylife f-space">
+                <h3 class="f-header">About MyLife</h3>
+                <p class="f-header myb-10">
+                    Providing you with the best education and ind-demand skills. Proudly Malawian and pro skills and intelligence.
+                </p>
+              
+                <div class="footer-social">
+                    <a href="" class="icon-facebook">
+                    <a href="" class="icon-instagram"></a>
+                    <a href="" class="icon-spotify"></a>
+                    <a href="" class="icon-linkedin"></a>
+                </div>
+            </div>
+            <div class="Academics f-space">
+                <h3 class="f-header">Academics</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Programs</a></li>
+                    <li class="footer-li"><a href="">News</a></li>
+                    <li class="footer-li"><a href="">Careers</a></li>
+                    <li class="footer-li"><a href="">Events</a></li>
+                    <li class="footer-li"><a href="">Awards</a></li>
+                </ul>
+            </div>
+            <div class="Instition f-space">
+                <h3 class="f-header">Campuses</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Zomba</a></li>
+                    <li class="footer-li"><a href="">Neno</a></li>
+                    <li class="footer-li"><a href="">Mchinji</a></li>
+                    <li class="footer-li"><a href="">Dedza</a></li>
+                    <li class="footer-li"><a href="">Kasungu</a></li>
+                </ul>
+            </div>
+            <div class="f__contact f-space">
+                <h3 class="f-header">Contact</h3>
+                <address class="footer-li myb-10">MyLife College<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+						<ul>
+							<li class="footer-li icon-phone"><a href="tel://2658812362392">  +(265)8812362392</a></li>
+
+
+							<li class="footer-li icon-phone"><a href="tel://2650112923832">  +(265)0112923832</a></li>
+							<li class="footer-li icon-envelope-o"><a href="mailto:info@mylife.com">  info@mylife.com</a></li>
+						</ul>
+            </div>
+            
+        </div>
+        <p class="at">Copyright 2023 &#169;MyLife</p>
+        <div class="ghope">
+            <a href="#" class="at">Developed by Goodhope</a>
+        </div>
+    </div>
+</section>
+<!-- End of Footer Section -->
+
+<!-- scroll up -->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="icon-arrow-up"></i>
+ </a>      
+
+<!-- js -->
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

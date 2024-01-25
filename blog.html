@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="icons/font/flaticon.css">
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+</head>
+<body>
+
+    <!-- #################### Header Section ########################## -->
+    <section class="scroll-white">
+        <header class="container">
+            <a href="index.html" class="logo">MyLife</a>
+          
+            <ul class="nav-menu">
+                <li class="nav-link"><a class="nav-dark" href="index.html">Home</a></li>
+                <li class="nav-link"><a class="nav-dark" href="apply.html">Apply</a></li>
+                <li class="nav-link"><a class="nav-dark" href="blog.html">Blog</a></li>
+                <li class="nav-link"><a class="nav-dark" href="about.html">About</a></li>
+                <li class="nav-link"><a class="nav-dark"  id="modalBtn" href="#">Sign in</a></li>
+                <li class="nav-link"><a class="nav-dark"  id="sendBtn" href="#">Contact</a></li>
+            </ul>
+            
+            <div class="responsive-search-box search-box">
+                <form action="">
+                    <input type="text" name="" placeholder="Search....">
+                    <button type="submit"><a href="" class="icon-search2"></a></button>
+                </form>
+            </div>
+            <div class="hamburger">
+                <span class="bar-dark"></span>
+                <span class="bar-dark"></span>
+                <span class="bar-dark"></span>
+            </div>
+        </header>
+    </section><br><br><br><br>
+   
+
+    <!-- small image -->
+    <div class="blog_uppper">
+        <!-- deer image -->
+        <div class="container"><h1 class="blog-upper-heading">Time To Create</h1></div>
+    </div>
+
+          <!-- Sign In Modal -->
+          <div class="login-section" id="simpleModal">
+            <div class="login__wrapper card-p">
+                <div class="right-end">
+                    <span id="closeBtn" class="closebtn">&times;</span>
+                </div>
+                
+                <h1 class="t-center smallextra">Login</h1>
+                <form action="">
+                <div class="result btmline">
+                <div class="input-place">
+                    <input type="text" placeholder="email or username">
+                </div>
+                <div class="input-place">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="blue__btn2 f-width py-1">Sign In</button>
+                <a href="" class="t-center myb-50">Forgot Password?</a>
+                <h3 class="t-center myb-50">Or</h3>
+                <p class="t-center myb-50">Login With</p>
+                <div class="login__icons">
+                    <div class="login__icon1 myb-50">
+                       <a href="" class="icon-google">
+                        <span class="bf-normal">Gmail</span>
+                       </a> 
+                    </div>
+                    <div class="login__icon2 myb-50">
+                        <a href="" class="icon-facebook">
+                        <span class="bf-normal">Facebook</span>
+                        </a>
+                        
+                    </div>
+                </div>
+              
+            </div>
+            <p class="t-center myb-50 myt-10">Don't have an Account? Create one</p>
+            <div class="t-center py-1 myb-10 modal__create">
+               <a href="#modalBtn" id="newAccount">
+                Create Account
+               </a>
+            </div>
+             </form>
+             </div>
+        </div>
+        <!-- End of Login Modal -->
+
+
+    <!-- Register Modal -->
+   <div class="register-section" id="registerModal">
+    <div class="register__wrapper card-p">
+        <div class="right-end">
+            <span id="rcloseBtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="t-center smallextra">Register</h1>
+        <form action="">
+        <div class="result btmline">
+        <div class="input-place">
+            <input type="text" placeholder="Full name">
+        </div>
+        <div class="input-place">
+            <input type="text" placeholder="email">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Re-enter Password">
+        </div>
+        <button class="blue__btn2 f-width py-1">Register</button>
+      
+    </div>
+    <p class="t-center myb-50 myt-10">Already have an Account? Sign In <a href="#simpleModal" id="backLogin">here</a></p>
+   
+     </form>
+     </div>
+</div>
+<!-- End of Register Modal -->
+
+<!-- Contact Form Modal -->
+<div class="cmodal-section" id="contactModal">
+    <div class="cmodal__wrapper container card-p">
+        <div class="right-end">
+            <span id="cclosebtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="smallextra">Get In Touch</h1>
+        <div class="main__cmodal">
+            <div class="cmodal__form">
+                <form action="" >
+                    <div class="new__comment">
+                        <div class="personal comment__input">
+                            <input type="text" placeholder="Firstname">
+                            <input type="text" placeholder="Lastname">
+                        </div>   
+                        <div class="comment__input my-10">
+                            <input type="email" placeholder="Enter Email">
+                        </div>
+                        <div class="comment__input my-10">
+                            <textarea type="text" name="comment-new" id=""></textarea>
+                        </div>
+                    </div>
+                    <div class="right-end">
+                        <button class="blue__btn" type="submit">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="cmodal__info">
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-envelope"></a>
+                    <p>info@mylife.com</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-location-arrow"></a>
+                    <address>MyLife Skills Education Center<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class=" icon-phone2"></a>
+                    <p>  +(265)0112923832</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-clock-o"></a>
+                    <p>Monday - Friday <br>8:30am to 4:30pm</p>
+                </div>
+                <p>We will get back to you Shortly. We are right here at your service.</p>
+            </div>
+        </div>
+    </div>
+     </form>
+     </div>
+</div>
+<!-- End Contact Form Modal-->
+
+
+
+
+
+
+    <!-- Features--Search -->
+    <div class="search__section">
+        <div class="wrapper container">
+         
+                <div class="sort-by">
+                    <div class="main-dropdown">
+                        <span>Sort By</span> 
+                        <a href="" class="icon-arrow-down"></a>
+                    </div>
+                    <div class="content">
+                        <a href="">Popular</a>
+                        <a href="">Older</a>
+                        <a href="">Latest</a>
+                    </div>
+                </div>
+                
+
+                <div class="responsive-cat">
+                    <div class="cat-dropdown">
+                        <span>Categories</span>
+                        <a href="" class="icon-arrow-down"></a>
+                    </div>
+                    <div class="content">
+                        <a href="">Drawing</a>
+                        <a href="">Journalism</a>
+                        <a href="">Comedy</a>
+                        <a href="">Nature</a>
+                        <a href="">Technology</a>
+                        <a href="">Mental Health</a>
+                    </div>
+                </div>
+                
+
+                <div class="search-box">
+                    <form action="">
+                        <input type="text" name="" placeholder="Search....">
+                        <button type="submit"><a href="" class="icon-search2"></a></button>
+                    </form>
+                </div>
+
+                <div class="readers-feature">
+                    <div class="bookmark">
+                        <a href="" class="icon-bookmark"></a>
+                        <span>Bookmarked</span>
+                    </div>
+                    <div class="liked">
+                        <a href="" class="icon-heart"></a>
+                        <span>Liked</span>
+                    </div>
+                </div>
+        </div>
+    </div>    
+
+
+
+
+
+
+
+    <!-- Main Blog Section -->
+    <div class="main__blog__section">
+        <div class="blog__wrapper container">
+            <div class="blog__cards">
+
+
+
+
+
+                <div class="card">
+                        <img class="blog__image" src="img/bg2.jpg" alt="blog image"> 
+                        <div class="card__head">
+                            <div class="card_description">
+                                <a href="post.html"><h6>Don't kill your Inner Child Creativity</h6></a>
+                                <div class="small_stuff">
+                                    <p class="small__light">7 Min</p>
+                                    <div class="icon-clock-o"  width="18px" height="18px"></div>
+                                </div>   
+                            </div>
+                            <p class="blog__font">While you hold this world please remember..</p>
+                            <div class="bottom__stuff">
+                                <p class="bf blog__font"><span class="blog__font">By:</span> Josh Mkango</p>
+                                <div class="bottom__comments">
+                                    <p class="small__light c">23 Comments</p>
+                                    <a href="" class="icon-commenting-o" width="18px" height="18px"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="hover__modal">
+                            <div class="modal__buttons">
+                                <a href="" class="icon-heart"></a>
+                                <a href="" class="icon-bookmark"></a>
+                             </div>
+                        </div>
+                </div>
+
+
+                <div class="card">
+                        <img class="blog__image" src="img/bg3.jpg" alt="blog image"> 
+                        <div class="card__head">
+                            <div class="card_description">
+                                <a href="post.html"><h6>Skills matter more than knowledge</h6></a>
+                                <div class="small_stuff">
+                                    <p class="small__light">7 Min</p>
+                                    <div class="icon-clock-o"  width="18px" height="18px"></div>
+                                </div>   
+                            </div>
+                            <p class="blog__font">This might sound a bit cliche but we all know..</p>
+                            <div class="bottom__stuff">
+                                <p class="bf blog__font"><span class="blog__font">By:</span> Emily Moyo</p>
+                                <div class="bottom__comments">
+                                    <p class="small__light c">40 Comments</p>
+                                    <a href="" class="icon-commenting-o" width="18px" height="18px"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="hover__modal">
+                            <div class="modal__buttons">
+                                <a href="" class="icon-heart"></a>
+                                <a href="" class="icon-bookmark"></a>
+                             </div>
+                        </div>
+                </div>
+
+
+                <div class="card">
+                        <img class="blog__image" src="img/bg4.jpg" alt="blog image"> 
+                        <div class="card__head">
+                            <div class="card_description">
+                                <a href="post.html"><h6>Things that I wish I knew as a freshman</h6></a>
+                                <div class="small_stuff">
+                                    <p class="small__light">7 Min</p>
+                                    <div class="icon-clock-o"  width="18px" height="18px"></div>
+                                </div>   
+                            </div>
+                            <p class="blog__font">It is always good to reminisce about..</p>
+                            <div class="bottom__stuff">
+                                <p class="bf blog__font"><span class="blog__font">By:</span> Brian Rice</p>
+                                <div class="bottom__comments">
+                                    <p class="small__light c">320 Comments</p>
+                                    <a href="" class="icon-commenting-o" width="18px" height="18px"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="hover__modal">
+                            <div class="modal__buttons">
+                                <a href="" class="icon-heart"></a>
+                                <a href="" class="icon-bookmark"></a>
+                             </div>
+                        </div>
+                </div>
+
+
+                <div class="card">
+                        <img class="blog__image" src="img/bg5.jpg" alt="blog image"> 
+                        <div class="card__head">
+                            <div class="card_description">
+                                <a href="post.html"><h6>Are you skeptical enough?</h6></a>
+                                <div class="small_stuff">
+                                    <p class="small__light">7 Min</p>
+                                    <div class="icon-clock-o"  width="18px" height="18px"></div>
+                                </div>   
+                            </div>
+                            <p class="blog__font">Okay, okay! I know what you are thinking...</p>
+                            <div class="bottom__stuff">
+                                <p class="bf blog__font"><span class="blog__font">By:</span> Jane Cooper</p>
+                                <div class="bottom__comments">
+                                    <p class="small__light c">50 Comments</p>
+                                    <a href="" class="icon-commenting-o" width="18px" height="18px"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="hover__modal">
+                            <div class="modal__buttons">
+                                <a href="" class="icon-heart"></a>
+                                <a href="" class="icon-bookmark"></a>
+                             </div>
+                        </div>
+                </div>
+
+
+                <div class="card">
+                        <img class="blog__image" src="img/bg6.jpg" alt="blog image"> 
+                        <div class="card__head">
+                            <div class="card_description">
+                                <a href="post.html"><h6>Why it's important to have a vision</h6></a>
+                                <div class="small_stuff">
+                                    <p class="small__light">7 Min</p>
+                                    <div class="icon-clock-o"  width="18px" height="18px"></div>
+                                </div>   
+                            </div>
+                            <p class="blog__font">Never underestimate the power of thinking ahead...</p>
+                            <div class="bottom__stuff">
+                                <p class="bf blog__font"><span class="blog__font">By:</span> Samuel Samuels</p>
+                                <div class="bottom__comments">
+                                    <p class="small__light c">53 Comments</p>
+                                    <a href="" class="icon-commenting-o" width="18px" height="18px"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="hover__modal">
+                            <div class="modal__buttons">
+                                <a href="" class="icon-heart"></a>
+                                <a href="" class="icon-bookmark"></a>
+                             </div>
+                        </div>
+                </div>
+
+
+                <div class="card">
+                        <img class="blog__image" src="img/bg7.jpg" alt="blog image"> 
+                        <div class="card__head">
+                            <div class="card_description">
+                                <a href="post.html"><h6>Bookworms vs Doers</h6></a>
+                                <div class="small_stuff">
+                                    <p class="small__light">7 Min</p>
+                                    <div class="icon-clock-o"  width="18px" height="18px"></div>
+                                </div>   
+                            </div>
+                            <p class="blog__font">This might come off as an attack on bookworms but...</p>
+                            <div class="bottom__stuff">
+                                <p class="bf blog__font"><span class="blog__font">By:</span> Rosemary the Writer</p>
+                                <div class="bottom__comments">
+                                    <p class="small__light c">36 Comments</p>
+                                    <a href="" class="icon-commenting-o" width="18px" height="18px"></a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="hover__modal">
+                            <div class="modal__buttons">
+                                <a href="" class="icon-heart"></a>
+                                <a href="" class="icon-bookmark"></a>
+                             </div>
+                        </div>
+                </div>
+
+
+
+
+               
+              
+               
+
+               
+
+            </div>
+
+<!-- ========================================Sidebar=========================================================================================== -->
+            <div class="blog__sidebar" id="blog__sidebar">
+
+                <div class="blog__topics card-p" id="blog__topics">
+                    <h2 class="center_head py-1">Categories</h2>
+                    <ul>
+                            <li class="cat-list cat__underline"><a href="" class="blue md-weight">Drawing</a></li>
+                            <li class="cat-list cat__underline"><a href="" class="blue">Journalism</a></li>
+                            <li class="cat-list cat__underline"><a href="" class="blue">Comedy</a></li>
+                            <li class="cat-list cat__underline"><a href="" class="blue">Nature</a></li>
+                            <li class="cat-list cat__underline"><a href="" class="blue">Technology</a></li>
+                            <li class="cat-list cat__underline"><a href="" class="blue">Mental Health</a></li>
+                            <li class="cat-list no-none"><a href="" class="blue">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="blog__subscribe card-p" id="blog__subscribe">
+                    <h2 class="center_head">Subscribe to our Blog NewsLetter!</h2>
+                    <form action="">
+                        <input type="text" name="" class="small__light" placeholder="Enter Email">
+                        <button class="blue__btn" type="submit">Subscribe</button>
+                        
+                    </form>
+                  
+                </div>
+            </div>
+
+            <div class="subscribe-btn">
+                <button class="bw__btn">Load More!</button>                    
+            </div>
+
+
+        </div>
+    </div>
+    
+    
+
+
+
+    
+
+<!-- Footer Section -->
+<section class="footer ">
+    <div class="container">
+        <div class="main-footer footer-content .px-10">
+            <div class="about__mylife f-space">
+                <h3 class="f-header">About MyLife</h3>
+                <p class="f-header myb-10">
+                    Providing you with the best education and ind-demand skills. Proudly Malawian and pro skills and intelligence.
+                </p>
+              
+                <div class="footer-social">
+                    <a href="" class="icon-facebook">
+                    <a href="" class="icon-instagram"></a>
+                    <a href="" class="icon-spotify"></a>
+                    <a href="" class="icon-linkedin"></a>
+                </div>
+            </div>
+            <div class="Academics f-space">
+                <h3 class="f-header">Academics</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Programs</a></li>
+                    <li class="footer-li"><a href="">News</a></li>
+                    <li class="footer-li"><a href="">Careers</a></li>
+                    <li class="footer-li"><a href="">Events</a></li>
+                    <li class="footer-li"><a href="">Awards</a></li>
+                </ul>
+            </div>
+            <div class="Instition f-space">
+                <h3 class="f-header">Campuses</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Zomba</a></li>
+                    <li class="footer-li"><a href="">Neno</a></li>
+                    <li class="footer-li"><a href="">Mchinji</a></li>
+                    <li class="footer-li"><a href="">Dedza</a></li>
+                    <li class="footer-li"><a href="">Kasungu</a></li>
+                </ul>
+            </div>
+            <div class="f__contact f-space">
+                <h3 class="f-header">Contact</h3>
+                <address class="footer-li myb-10">MyLife College<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+						<ul>
+							<li class="footer-li icon-phone"><a href="tel://2658812362392">  +(265)8812362392</a></li>
+
+
+							<li class="footer-li icon-phone"><a href="tel://2650112923832">  +(265)0112923832</a></li>
+							<li class="footer-li icon-envelope-o"><a href="mailto:info@mylife.com">  info@mylife.com</a></li>
+						</ul>
+            </div>
+
+            <div class="res-blog blog__subscribe" id="blog__subscribe">
+                <h2 class="center_head">Subscribe to our Blog NewsLetter!</h2>
+                <form action="">
+                    <input type="text" name="" class="small__light" placeholder="Enter Email">
+                    <button class="blue__btn3" type="submit">Subscribe</button>
+                    
+                </form>
+              
+            </div>
+            
+        </div>
+        <p class="at">Copyright 2023 &#169;MyLife</p>
+        <div class="ghope">
+            <a href="#" class="at">Developed by Goodhope</a>
+        </div>
+    </div>
+</section>
+<!-- End of Footer Section -->
+
+
+<!-- scroll up -->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="icon-arrow-up"></i>
+ </a>      
+
+
+<!-- js -->
+<script src="js/script.js" defer></script>
+</body>
+</html>

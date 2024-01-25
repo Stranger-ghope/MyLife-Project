@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="icons/font/flaticon.css">
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Playpen+Sans:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+</head>
+<body>
+
+    
+    <!-- #################### Header Section ########################## -->
+    <section class="scroll-white">
+        <header class="container">
+            <a href="index.html" class="logo">MyLife</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-link"><a class="nav-white" href="index.html">Home</a></li>
+                <li class="nav-link"><a class="nav-white" href="apply.html">Apply</a></li>
+                <li class="nav-link"><a class="nav-white" href="blog.html">Blog</a></li>
+                <li class="nav-link"><a class="nav-white" href="about.html">About</a></li>
+                <li class="nav-link"><a class="nav-white"  id="modalBtn" href="#">Sign in</a></li>
+                <li class="nav-link"><a class="nav-white"  id="sendBtn" href="#">Contact</a></li>
+                
+          
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </header>
+    </section>
+       <!-- background and hero -->
+    <div class="hero">
+        <div class="hero-main container">
+            <h1 class="white extra2">Leveraging Change for Your Benefit of the future</h1>
+            <div class="sub-hero">
+                <p class="white hero-small">
+                    With notable alumni who are serving communities, feel free to explore your chances with us!
+                </p>
+                <div class="hero-buttons">
+                    <a href="apply.html" class="hero-btn1">Apply Now</a>
+                    <a href="" class="hero-btn2">Explore More</a>
+                </div>
+            </div>
+            
+           
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+          <!-- Sign In Modal -->
+          <div class="login-section" id="simpleModal">
+            <div class="login__wrapper card-p">
+                <div class="right-end">
+                    <span id="closeBtn" class="closebtn">&times;</span>
+                </div>
+                
+                <h1 class="t-center smallextra">Login</h1>
+                <form action="">
+                <div class="result btmline">
+                <div class="input-place">
+                    <input type="text" placeholder="email or username">
+                </div>
+                <div class="input-place">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="blue__btn2 f-width py-1">Sign In</button>
+                <a href="" class="t-center myb-50">Forgot Password?</a>
+                <h3 class="t-center myb-50">Or</h3>
+                <p class="t-center myb-50">Login With</p>
+                <div class="login__icons">
+                    <div class="login__icon1 myb-50">
+                       <a href="" class="icon-google">
+                        <span class="bf-normal">Gmail</span>
+                       </a> 
+                    </div>
+                    <div class="login__icon2 myb-50">
+                        <a href="" class="icon-facebook">
+                        <span class="bf-normal">Facebook</span>
+                        </a>
+                        
+                    </div>
+                </div>
+              
+            </div>
+            <p class="t-center myb-50 myt-10">Don't have an Account? Create one</p>
+            <div class="t-center py-1 myb-10 modal__create">
+               <a href="#modalBtn" id="newAccount">
+                Create Account
+               </a>
+            </div>
+             </form>
+             </div>
+        </div>
+        <!-- End of Login Modal -->
+
+
+    <!-- Register Modal -->
+   <div class="register-section" id="registerModal">
+    <div class="register__wrapper card-p">
+        <div class="right-end">
+            <span id="rcloseBtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="t-center smallextra">Register</h1>
+        <form action="">
+        <div class="result btmline">
+        <div class="input-place">
+            <input type="text" placeholder="Full name">
+        </div>
+        <div class="input-place">
+            <input type="text" placeholder="email">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Re-enter Password">
+        </div>
+        <button class="blue__btn2 f-width py-1">Register</button>
+      
+    </div>
+    <p class="t-center myb-50 myt-10">Already have an Account? Sign In <a href="#simpleModal" id="backLogin">here</a></p>
+   
+     </form>
+     </div>
+</div>
+<!-- End of Register Modal -->
+
+<!-- Contact Form Modal -->
+<div class="cmodal-section" id="contactModal">
+    <div class="cmodal__wrapper container card-p">
+        <div class="right-end">
+            <span id="cclosebtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="smallextra">Get In Touch</h1>
+        <div class="main__cmodal">
+            <div class="cmodal__form">
+                <form action="" >
+                    <div class="new__comment">
+                        <div class="personal comment__input">
+                            <input type="text" placeholder="Firstname">
+                            <input type="text" placeholder="Lastname">
+                        </div>   
+                        <div class="comment__input my-10">
+                            <input type="email" placeholder="Enter Email">
+                        </div>
+                        <div class="comment__input my-10">
+                            <textarea type="text" name="comment-new" id=""></textarea>
+                        </div>
+                    </div>
+                    <div class="right-end">
+                        <button class="blue__btn" type="submit">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="cmodal__info">
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-envelope"></a>
+                    <p>info@mylife.com</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-location-arrow"></a>
+                    <address>MyLife Skills Education Center<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class=" icon-phone2"></a>
+                    <p>  +(265)0112923832</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-clock-o"></a>
+                    <p>Monday - Friday <br>8:30am to 4:30pm</p>
+                </div>
+                <p>We will get back to you Shortly. We are right here at your service.</p>
+            </div>
+        </div>
+    </div>
+     </form>
+     </div>
+</div>
+<!-- End Contact Form Modal-->
+
+
+
+
+
+
+<!-- Motivation Section -->
+<section class="motivation">
+    <h2 class="center_head header-p white">Our Programs</h2>
+    <div class="container">
+        <div class="all__cards">
+            <div class="mot__card1">
+                <div class="mot__card card-p">
+                    <div class="icon-cogs bf-normal"></div>
+                    Mechanics
+                </div>
+                <div class="mot__card card-p">
+                    <div class="icon-paint-brush"></div>
+                    Painting
+                </div>
+                <div class="mot__card card-p">
+                    <div class="icon-wifi"></div>
+                    Networking
+                </div>
+            </div>
+            <div class="mot__card2">
+                <div class="mot__card">
+                    <div class="icon-microphone"></div>
+                    Journalism
+                </div>
+                <div class="mot__card">
+                    <div class="icon-credit-card"></div>
+                    Accounting
+                </div>
+            </div>
+            <div class="mot__card3">
+                <div class="mot__card">
+                    <div class="icon-camera"></div>            
+                    Photography 
+                </div>
+                <div class="mot__card">
+                    <div class="icon-video-camera"></div>            
+                    Videography
+                </div>
+                <div class="mot__card">
+                    <div class="icon-bar-chart-o"></div> 
+                    Marketing           
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="t-center low">
+        <a href="" class="blue__btn2">View all programs</a>
+    </div>
+    
+</section>
+
+
+
+
+    
+    <!-- Testimonies Section -->
+    <section class="testimonies">
+        <div class="container">
+            <h2 class="center_head">Some testimonies</h2>
+            <div class="cards  .px-10">
+                
+                    <div class="t-words-one card">
+                        <img src="img/four/three.png" alt="">
+                        <div class="profile">
+                            <h3>John Dzila</h3>
+                            <p>Studying at MyLife Vacational College imporoved my technical skills and set me on a clear path. My goal is to inspire others.</p>
+                        </div>     
+                    </div>
+                    <div class="t-words-two card">
+                        <div class="profile">
+                            <h3 class="name">Frank</h3>
+                            <p>MyLife College exposed me to real-world scenarios and practical knowledge that cannot be acquired through traditional education alone.</p>
+                            </div>
+                            <img src="./img/one.jpg" alt="">
+                            
+                    </div>
+                    <div class="t-words-one card">
+                        <img src="./img/four.jpg" alt="">
+                        <div class="profile">
+                            <h3>Mercy</h3>
+                            <p>The College made me equipped me with specialized skills that are highly sought after in the job market. Employers value candidates who possess practical knowledge and can hit the ground running from day one.</p>
+                        </div>     
+                    </div>
+                    <div class="t-words-two card">
+                        <div class="profile">
+                            <h3 class="name">Ida</h3>
+                            <p> It provided me with hands-on experience, enabling me to apply theoretical concepts in a practical setting. This allowed me to develop a deeper understanding of the subject matter and gain confidence in my abilities.</p>
+                            </div>
+                            <img src="./img/four/five.jpg" alt="">
+                            
+                    </div>
+                
+            </div>
+        </div>         
+    </section>
+
+
+
+    <!-- ART NEVER FADES -->
+   
+    <section class="art">
+        <div class="container">
+            <h1 class="center_head">Good Education Never Dies</h1>
+    <div class="main-grid .px-10">
+        <div class="people">
+            <img src="img/four/one.jpg" alt="">
+            <img src="img/four/two.jpg" alt="">
+            <img src="img/four/three.png" alt="">
+            <img src="img/four/five.jpg" alt="">
+        </div>
+        <div class="art-reasons">
+            <h3 class="center_head only_h white">
+                Why Should You Join US?
+            </h3>
+            <ul>
+                <li>Attending MyLife College enhances one's credibility in the job market.</li>
+                <li>We provide excellent resources such as libraries, research facilities, and laboratories.</li>
+                <li>We offer a wide range of courses and majors, allowing students to explore their interests and discover their true passion.</li>
+                <li>Our professors possess extensive knowledge and experience, ensuring that students receive high-quality education.</li>
+                <li>Education is the key to success, and choosing MyLife plays a vital role in shaping one's future.</li>
+                <li>Our guidance and mentorship can inspire students to excel academically and develop critical thinking skills.</li>
+                <li>Employers often value our graduates due to our rigorous academic standards and reputation.</li>
+         
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Buttons -->
+
+<section class="bottom_nav">
+    <div class="container">
+        <div class="button .px-10">
+            <a href="about.html#scholar" class="orange">Scholarships</a>
+            <a href="#" class="orange">Campuses</a>
+            <a href="#" class="orange">Events</a>
+        </div>
+    </div>
+</section>
+
+<!-- Our Partners -->
+
+<h3 class="center_head">Our Partners</h3>
+
+<section class="partners">
+    <div class="container">
+        <div class="logos .px-10">
+            <img src="img/icons/partners/alipay.jpg" alt="">
+            <img src="img/icons/partners/bitcoin.png" alt="">
+            <img src="img/icons/partners/uncharted.png" alt="">
+            <img src="img/icons/partners/dribble.png" alt="">
+            <img src="img/icons/partners/viacoin.png" alt="">
+            <img src="img/icons/partners/ups.png" style="background-color: black;" alt="">
+            <img src="img/icons/partners/sitrox.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<section class="footer ">
+    <div class="container">
+        <div class="main-footer footer-content .px-10">
+            <div class="about__mylife f-space">
+                <h3 class="f-header">About MyLife</h3>
+                <p class="f-header myb-10">
+                    Providing you with the best education and ind-demand skills. Proudly Malawian and pro skills and intelligence.
+                </p>
+              
+                <div class="footer-social">
+                    <a href="" class="icon-facebook">
+                    <a href="" class="icon-instagram"></a>
+                    <a href="" class="icon-spotify"></a>
+                    <a href="" class="icon-linkedin"></a>
+                </div>
+            </div>
+            <div class="Academics f-space">
+                <h3 class="f-header">Academics</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Programs</a></li>
+                    <li class="footer-li"><a href="">News</a></li>
+                    <li class="footer-li"><a href="">Careers</a></li>
+                    <li class="footer-li"><a href="">Events</a></li>
+                    <li class="footer-li"><a href="">Awards</a></li>
+                </ul>
+            </div>
+            <div class="Instition f-space">
+                <h3 class="f-header">Campuses</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Zomba</a></li>
+                    <li class="footer-li"><a href="">Neno</a></li>
+                    <li class="footer-li"><a href="">Mchinji</a></li>
+                    <li class="footer-li"><a href="">Dedza</a></li>
+                    <li class="footer-li"><a href="">Kasungu</a></li>
+                </ul>
+            </div>
+            <div class="f__contact f-space">
+                <h3 class="f-header">Contact</h3>
+                <address class="footer-li myb-10">MyLife College<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+						<ul>
+							<li class="footer-li icon-phone"><a href="tel://2658812362392">  +(265)8812362392</a></li>
+
+
+							<li class="footer-li icon-phone"><a href="tel://2650112923832">  +(265)0112923832</a></li>
+							<li class="footer-li icon-envelope-o"><a href="mailto:info@mylife.com">  info@mylife.com</a></li>
+						</ul>
+            </div>
+            
+        </div>
+        <p class="at">Copyright 2023&#169;MyLife</p>
+        <div class="ghope">
+            <a href="#" class="at">Developed by Goodhope</a>
+        </div>
+    </div>
+</section>
+<!-- End of Footer Section -->
+
+
+
+
+<!-- scroll up -->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="icon-arrow-up"></i>
+ </a>      
+
+
+
+<!-- js -->
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

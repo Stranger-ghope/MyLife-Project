@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="icons/font/flaticon.css">
+    <link rel="stylesheet" href="icons/icomoon/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+</head>
+<body>
+
+
+
+    <!-- #################### Header Section ########################## -->
+    <section class="scroll-white">
+        <header class="container">
+            <a href="index.html" class="logo">MyLife</a>
+          
+               
+            <ul class="nav-menu">
+                <li class="nav-link"><a class="nav-dark" href="index.html">Home</a></li>
+                <li class="nav-link"><a class="nav-dark" href="apply.html">Apply</a></li>
+                <li class="nav-link"><a class="nav-dark" href="blog.html">Blog</a></li>
+                <li class="nav-link"><a class="nav-dark" href="about.html">About</a></li>
+                <li class="nav-link"><a class="nav-dark"  id="modalBtn" href="#">Sign in</a></li>
+                <li class="nav-link"><a class="nav-dark"  id="sendBtn" href="#">Contact</a></li>
+            </ul>
+            
+            <div class="responsive-search-box search-box">
+                <form action="">
+                    <input type="text" name="" placeholder="Search....">
+                    <button type="submit"><a href="" class="icon-search2"></a></button>
+                </form>
+            </div>
+            <div class="hamburger">
+                <span class="bar-dark"></span>
+                <span class="bar-dark"></span>
+                <span class="bar-dark"></span>
+            </div>
+        </header>
+    </section><br><br><br><br>
+   
+
+
+
+    <!-- small image -->
+    <div class="blog_uppper">
+        <!-- deer image -->
+        <div class="container"><h1 class="blog-upper-heading">Time To Create</h1></div>
+    </div>
+
+
+
+
+
+    
+
+          <!-- Sign In Modal -->
+          <div class="login-section" id="simpleModal">
+            <div class="login__wrapper card-p">
+                <div class="right-end">
+                    <span id="closeBtn" class="closebtn">&times;</span>
+                </div>
+                
+                <h1 class="t-center smallextra">Login</h1>
+                <form action="">
+                <div class="result btmline">
+                <div class="input-place">
+                    <input type="text" placeholder="email or username">
+                </div>
+                <div class="input-place">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="blue__btn2 f-width py-1">Sign In</button>
+                <a href="" class="t-center myb-50">Forgot Password?</a>
+                <h3 class="t-center myb-50">Or</h3>
+                <p class="t-center myb-50">Login With</p>
+                <div class="login__icons">
+                    <div class="login__icon1 myb-50">
+                       <a href="" class="icon-google">
+                        <span class="bf-normal">Gmail</span>
+                       </a> 
+                    </div>
+                    <div class="login__icon2 myb-50">
+                        <a href="" class="icon-facebook">
+                        <span class="bf-normal">Facebook</span>
+                        </a>
+                        
+                    </div>
+                </div>
+              
+            </div>
+            <p class="t-center myb-50 myt-10">Don't have an Account? Create one</p>
+            <div class="t-center py-1 myb-10 modal__create">
+               <a href="#modalBtn" id="newAccount">
+                Create Account
+               </a>
+            </div>
+             </form>
+             </div>
+        </div>
+        <!-- End of Login Modal -->
+
+<!-- ########################################################################### -->
+    <!-- Register Modal -->
+   <div class="register-section" id="registerModal">
+    <div class="register__wrapper card-p">
+        <div class="right-end">
+            <span id="rcloseBtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="t-center smallextra">Register</h1>
+        <form action="">
+        <div class="result btmline">
+        <div class="input-place">
+            <input type="text" placeholder="Full name">
+        </div>
+        <div class="input-place">
+            <input type="text" placeholder="email">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="input-place">
+            <input type="password" placeholder="Re-enter Password">
+        </div>
+        <button class="blue__btn2 f-width py-1">Register</button>
+      
+    </div>
+    <p class="t-center myb-50 myt-10">Already have an Account? Sign In <a href="#simpleModal" id="backLogin">here</a></p>
+   
+     </form>
+     </div>
+</div>
+<!-- End of Register Modal -->
+
+<!-- Contact Form Modal -->
+<div class="cmodal-section" id="contactModal">
+    <div class="cmodal__wrapper container card-p">
+        <div class="right-end">
+            <span id="cclosebtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="smallextra">Get In Touch</h1>
+        <div class="main__cmodal">
+            <div class="cmodal__form">
+                <form action="" >
+                    <div class="new__comment">
+                        <div class="personal comment__input">
+                            <input type="text" placeholder="Firstname">
+                            <input type="text" placeholder="Lastname">
+                        </div>   
+                        <div class="comment__input my-10">
+                            <input type="email" placeholder="Enter Email">
+                        </div>
+                        <div class="comment__input my-10">
+                            <textarea type="text" name="comment-new" id=""></textarea>
+                        </div>
+                    </div>
+                    <div class="right-end">
+                        <button class="blue__btn" type="submit">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="cmodal__info">
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-envelope"></a>
+                    <p>info@mylife.com</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-location-arrow"></a>
+                    <address>MyLife Skills Education Center<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class=" icon-phone2"></a>
+                    <p>  +(265)0112923832</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-clock-o"></a>
+                    <p>Monday - Friday <br>8:30am to 4:30pm</p>
+                </div>
+                <p>We will get back to you Shortly. We are right here at your service.</p>
+            </div>
+        </div>
+    </div>
+     </form>
+     </div>
+</div>
+<!-- End Contact Form Modal-->
+
+<!-- Contact Form Modal -->
+<div class="cmodal-section" id="contactModal">
+    <div class="cmodal__wrapper container card-p">
+        <div class="right-end">
+            <span id="cclosebtn" class="closebtn">&times;</span>
+        </div>
+        
+        <h1 class="smallextra">Get In Touch</h1>
+        <div class="main__cmodal">
+            <div class="cmodal__form">
+                <form action="" >
+                    <div class="new__comment">
+                        <div class="personal comment__input">
+                            <input type="text" placeholder="Firstname">
+                            <input type="text" placeholder="Lastname">
+                        </div>   
+                        <div class="comment__input my-10">
+                            <input type="email" placeholder="Enter Email">
+                        </div>
+                        <div class="comment__input my-10">
+                            <textarea type="text" name="comment-new" id=""></textarea>
+                        </div>
+                    </div>
+                    <div class="right-end">
+                        <button class="blue__btn" type="submit">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="cmodal__info">
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-envelope"></a>
+                    <p>info@mylife.com</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-location-arrow"></a>
+                    <address>MyLife Skills Education Center<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class=" icon-phone2"></a>
+                    <p>  +(265)0112923832</p>
+                </div>
+                <div class="info-detail myb-10">
+                    <a href="" class="icon-clock-o"></a>
+                    <p>Monday - Friday <br>8:30am to 4:30pm</p>
+                </div>
+                <p>We will get back to you Shortly. We are right here at your service.</p>
+            </div>
+        </div>
+    </div>
+     </form>
+     </div>
+</div>
+<!-- End Contact Form Modal-->
+<!-- ######################################################################################### -->
+
+
+
+  <!-- Features--Search -->
+  <div class="search__section">
+    <div class="wrapper container">
+     
+            <div class="sort-by">
+                <div class="main-dropdown">
+                    <span>Sort By</span> 
+                    <a href="" class="icon-arrow-down"></a>
+                </div>
+                <div class="content">
+                    <a href="">Popular</a>
+                    <a href="">Older</a>
+                    <a href="">Latest</a>
+                </div>
+            </div>
+            
+
+            <div class="responsive-cat">
+                <div class="cat-dropdown">
+                    <span>Categories</span>
+                    <a href="" class="icon-arrow-down"></a>
+                </div>
+                <div class="content">
+                    <a href="">Drawing</a>
+                    <a href="">Journalism</a>
+                    <a href="">Comedy</a>
+                    <a href="">Nature</a>
+                    <a href="">Technology</a>
+                    <a href="">Mental Health</a>
+                </div>
+            </div>
+            
+
+            <div class="search-box">
+                <form action="">
+                    <input type="text" name="" placeholder="Search....">
+                    <button type="submit"><a href="" class="icon-search2"></a></button>
+                </form>
+            </div>
+
+            <div class="readers-feature">
+                <div class="bookmark">
+                    <a href="" class="icon-bookmark"></a>
+                    <span>Bookmarked</span>
+                </div>
+                <div class="liked">
+                    <a href="" class="icon-heart"></a>
+                    <span>Liked</span>
+                </div>
+            </div>
+    </div>
+</div>    
+
+<div class="social__sticky card-p" > <!-- Sidebar-->
+    <p  class="bf-normal wide">Share</p>
+    <div class="sticky__content">
+        <div class="social__icons">
+            <a href="" class="icon-facebook"></a>
+            <a href="" class="icon-instagram"></a>
+            <p class="res-share b">Share</p>
+            <a href="" class="icon-reddit"></a>
+            <a href="" class="icon-linkedin"></a>
+        </div>
+    </div>
+</div>
+
+ <!-- Main Blog Section -->
+ <div class="main__blog__section">
+    <div class="post__wrapper container">
+        <div class="blog__post">
+            <!-- ######################################################################### Sticy Icons Section ############################################################# -->
+   
+
+
+            <!-- ############################################################################# Main BLog Section ################################# -->
+            <div class="main__post" style="max-height: fit-content;">
+    
+    
+
+                <img src="img/bg1.jpg" width="100%" style="max-height: 500px;" alt="">
+                <div class="image__source">
+                    <span class="">Image Source: unsplash.com</span>
+                </div> 
+                <h6 class="smallextra">Don't kill your Inner Child Creativity</h6>
+                <div class="card_description">
+                    
+                    <p class="bf blog__font"><span class="blog__font">By:</span> Emily Moyo</p>
+                    <div class="small_stuff">
+                        <p class="small__light">7 Minutes Read</p>
+                        <img src="icons/book-open-line.svg" width="14px" height="14px">
+                    </div>   
+                </div>
+
+                <div class="blog__content myt-43 btmline pyb-50">
+                    <p class="md-weight">Creativity is a gift that we are all born with. As children, our minds are filled with boundless imagination and curiosity, allowing us to see the world in a unique and magical way. However, as we grow older, society often discourages this childish creativity, pushing us towards conformity and practicality. It is crucial that we do not allow this to happen, as our creativity holds the key to innovation and personal fulfillment.<br><br>
+
+                        Childish creativity is characterized by its fearlessness and willingness to take risks. Children are not afraid of making mistakes or being judged; they simply follow their instincts and let their imaginations run wild. This mindset allows for groundbreaking ideas and solutions to emerge.<br><br>
+                        
+                        Unfortunately, as we enter adulthood, societal pressures often stifle our creative spirit. We become more focused on meeting expectations rather than exploring new possibilities. The fear of failure becomes overwhelming, leading many to abandon their creative pursuits altogether.<br><br>
+                        
+                        However, it is important to remember that creativity is not limited to artistic endeavors alone. It can be applied in all aspects of life – from problem-solving at work to finding innovative ways of connecting with others.<br><br>
+                        
+                        Nurturing our childish creativity requires a conscious effort on our part. We must make time for playfulness and exploration in our lives. Engaging in activities such as painting, writing, or even daydreaming can help reignite the spark of imagination within us.<br><br>
+                        
+                        Moreover, surrounding ourselves with like-minded individuals who appreciate and encourage our creative endeavors can also be immensely beneficial. By sharing ideas and collaborating with others who value creativity, we can create an environment that fosters innovation.<br><br>
+                        
+                        In conclusion, it is essential that we do not kill our childish creativity as we grow older. Embracing this innate gift allows us to think outside the box and find joy in the process of creation. By nurturing our creative spirit through playfulness and collaboration, we can unlock endless possibilities for personal growth and societal advancement. Let us not allow society to extinguish our creative flame, but instead, let it burn brightly and illuminate the world around us..</p>
+                </div>
+
+                <div class="about__author btmline">
+                    <h3 class="my-10">About the Author</h3>
+                    <img src="img/secon.png" width="80px" height="80px" alt="">  
+                    <p class="my-10 md-weight">Emily Mwale is a content creator and an alumni of MyLife Education Center and she enjoys writing and hiking. Over the years she has written a lot of articles and has some publications.
+
+                        <br><br>   You can Follow her on <a href="">X</a>, <a href="">Facebook</a> or <a href="">Instagram.</a></p>  
+                </div>
+
+                <div class="post__comments btmline" id="new__reply">
+                    <h3 class="btmline2">Comments</h3>
+                    <p class="myt-10">Fill out the form to add your comment</p>
+
+                    <form action="" style="max-width: 542px;">
+                        <div class="new__comment">
+                            <div class="comment__input my-10">
+                                <input type="text" placeholder="username">
+                            </div>
+                            <div class="comment__input my-10">
+                                <input type="email" placeholder="Enter Email">
+                            </div>
+                            <div class="comment__input my-10">
+                                <textarea name="comment-new" id=""></textarea>
+                            </div>
+                        </div>
+                        <div class="right-end">
+                            <button class="blue__btn" type="submit">Add Comment</button>
+                        </div>
+                        
+                    </form>
+                </div>
+
+
+                
+                        <!-- =========== Comments ==============  -->
+
+                        <div class="comment__section">
+
+                            <div class="comment__filter  btmline">
+                                <div class="sort-by">
+                                    <div class="main-dropdown">
+                                        <span>Sort By</span> 
+                                        <a href="" class="icon-arrow-down"></a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="">Popular</a>
+                                        <a href="">Older</a>
+                                        <a href="">Latest</a>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h6>30 Comments</h6>
+                                </div>
+                            </div>
+                        
+        
+        
+                        <div class="people__comments">
+                            <div class="comment__person">
+                                <img src="img/secon.png" width="60px" height="60px" alt="">
+                            </div>
+                            <div class="comment__content">
+                                <div class="person__head myb-5">
+                                    <span class="b">Emily Moyo</span>
+                                    <span class="small__light">2023/20/08</span>
+                                </div>
+                                
+                                <p class="md-weight">This has really spoken to me in the season. I have always dreaded the notion of "growing up." Not in the literal sense but I believe our mindsets can have a great influence on our creativity. I will continue to remember that having an inquisitive mind will greatly improve my creativity<a href="" style="color: blue; text-decoration: none;" >....read more</a></p>
+        
+                                <div class="comment__icons">
+                                    <div class="comment__thumb">
+                                        <div class="c__likes">
+                                            <a href="" class="icon-thumbs-up">
+                                            </a>
+                                            <span class="bf-normal">  40</span>
+                                        </div>
+                                        <div class="c__likes">
+                                            <a href="" class="icon-thumbs-down">
+                                            </a>
+                                        <span class="bf-normal">  20</span>
+                                        </div>   
+                                    </div>
+                                    <div class="comment__reply">
+                                        <span class="bf-normal"><a class="bf-normal icon-reply" href="#new__reply"><span> reply</span></a></span>
+                                    </div>
+                                    <div class="comment__expand">
+                                        <a href="#comment" class="icon-arrow-down">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Comment Ends here -->
+                            <!-- Comment reply -->
+                        <div class="reply__1 people__comments" id="#comment">
+                            <div class="comment__person">
+                                <img src="img/one.jpg" width="60px" height="60px" alt="">
+                            </div>
+                            <div class="comment__content">
+                                <div class="person__head myb-5">
+                                    <span class="b">Chikondi</span>
+                                    <span class="small__light">2023/20/08</span>
+                                </div>
+                                
+                                <p class="md-weight"><b>@Emily Moyo</b> I like how you mention to always remember being inquisitive. <br>
+                                    It's actually funny to mention but I had a debate yesterday with a friend over this. My point was to never take life too serious. We can unlock a maze in our head if we relive our childhood mentally. Good Luck!!<a href="" style="color: blue; text-decoration: none;" >....read more</a></p>
+        
+                                <div class="comment__icons">
+                                    <div class="comment__thumb">
+                                        <div class="c__likes">
+                                            <a href="" class="icon-thumbs-up">
+                                            </a>
+                                            <span class="bf-normal">  40</span>
+                                        </div>
+                                        <div class="c__likes">
+                                            <a href="" class="icon-thumbs-down">
+                                            </a>
+                                        <span class="bf-normal">  20</span>
+                                        </div>   
+                                    </div>
+                                    <div class="comment__reply">
+                                        <span class="bf-normal"><a class="bf-normal icon-reply" href="#new__reply"><span> reply</span></a></span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        <!-- Comment Ends here -->
+        
+                        <div class="people__comments">
+                            <div class="comment__person">
+                                <img src="img/four.jpg" width="60px" height="60px" alt="">
+                            </div>
+                            <div class="comment__content">
+                                <div class="person__head myb-5">
+                                    <span class="b">Laura</span>
+                                    <span class="small__light">2023/20/08</span>
+                                </div>
+                                
+                                <p class="md-weight">This is a nicely written article. I have already shared it to my friend on Facebook. I am the one always being playful with her. Haha!!!</p>
+        
+                                <div class="comment__icons">
+                                    <div class="comment__thumb">
+                                        <div class="c__likes">
+                                            <a href="" class="icon-thumbs-up">
+                                            </a>
+                                            <span class="bf-normal">  40</span>
+                                        </div>
+                                        <div class="c__likes">
+                                            <a href="" class="icon-thumbs-down">
+                                            </a>
+                                        <span class="bf-normal">  20</span>
+                                        </div>   
+                                    </div>
+                                    <div class="comment__reply">
+                                        <span class="bf-normal"><a class="bf-normal icon-reply" href="#new__reply"><span> reply</span></a></span>
+                                    </div>
+                                    <div class="comment__expand">
+                                        <a href="#comment" class="icon-arrow-down">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="subscribe-btn">
+                            <button class="bw__btn">Load More Comments!</button>                    
+                        </div>
+            </div>
+         </div>
+
+          <!-- ==============================Sidebar=========================================================================================== -->
+        <div class="blog__sidebar">
+
+            <div class="blog__topics card-p">
+                <h2 class="center_head my-10">Categories</h2>
+                <ul>
+                    <li class="cat-list cat__underline"><a href="" class="blue">Drawing</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">Journalism</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">Comedy</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">Nature</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">Technology</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">Mental Health</a></li>
+                    <li class="cat-list no-none"><a href="" class="blue">Careers</a></li>
+                </ul>  
+            </div>
+            
+
+            <div class="blog__subscribe card-p myb-10">
+                <h2 class="center_head">Subscribe to our Blog NewsLetter!</h2>
+                <form action="">
+                    <input type="text" name="" class="small__light" placeholder="Enter Email">
+                    <button class="blue__btn" type="submit">Subscribe</button>
+                    
+                </form>
+            
+            </div>
+
+            
+            
+            <div class="blog__topics card-p archives">
+                <h2 class="center_head my-10 ">Archives</h2>
+                <ul>
+                    <li class="cat-list cat__underline"><a href="" class="blue">2023</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">2022</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">2021</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">2020</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">2019</a></li>
+                    <li class="cat-list cat__underline"><a href="" class="blue">2018</a></li>
+                    <li class="cat-list no-none"><a href="" class="blue">2017</a></li>
+                </ul>  
+            </div>
+
+
+
+
+
+
+        </div>
+
+    
+
+    </div>
+</div>
+
+
+
+
+
+    
+    
+
+
+
+<!-- Footer Section -->
+<section class="footer ">
+    <div class="container">
+        <div class="main-footer sticky-footer footer-content .px-10">
+            <div class="about__mylife f-space">
+                <h3 class="f-header">About MyLife</h3>
+                <p class="f-header myb-10">
+                    Providing you with the best education and ind-demand skills. Proudly Malawian and pro skills and intelligence.
+                </p>
+              
+                <div class="footer-social">
+                    <a href="" class="icon-facebook">
+                    <a href="" class="icon-instagram"></a>
+                    <a href="" class="icon-spotify"></a>
+                    <a href="" class="icon-linkedin"></a>
+                </div>
+            </div>
+            <div class="Academics f-space">
+                <h3 class="f-header">Academics</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Programs</a></li>
+                    <li class="footer-li"><a href="">News</a></li>
+                    <li class="footer-li"><a href="">Careers</a></li>
+                    <li class="footer-li"><a href="">Events</a></li>
+                    <li class="footer-li"><a href="">Awards</a></li>
+                </ul>
+            </div>
+            <div class="Instition f-space">
+                <h3 class="f-header">Campuses</h3>
+                <ul>
+                    <li class="footer-li"><a href="">Zomba</a></li>
+                    <li class="footer-li"><a href="">Neno</a></li>
+                    <li class="footer-li"><a href="">Mchinji</a></li>
+                    <li class="footer-li"><a href="">Dedza</a></li>
+                    <li class="footer-li"><a href="">Kasungu</a></li>
+                </ul>
+            </div>
+            <div class="f__contact f-space">
+                <h3 class="f-header">Contact</h3>
+                <address class="footer-li myb-10">MyLife College<br>P.O Box 80203 NE <br>Zip Code 28923 <br>Zomba, Malawi</address>
+						<ul>
+							<li class="footer-li icon-phone"><a href="tel://2658812362392">  +(265)8812362392</a></li>
+
+
+							<li class="footer-li icon-phone"><a href="tel://2650112923832">  +(265)0112923832</a></li>
+							<li class="footer-li icon-envelope-o"><a href="mailto:info@mylife.com">  info@mylife.com</a></li>
+						</ul>
+            </div>
+            <div class="res-blog blog__subscribe" id="blog__subscribe">
+                <h2 class="center_head">Subscribe to our Blog NewsLetter!</h2>
+                <form action="">
+                    <input type="text" name="" class="small__light" placeholder="Enter Email">
+                    <button class="blue__btn3" type="submit">Subscribe</button>
+                    
+                </form>
+              
+            </div>
+        </div>
+        <p class="at">Copyright 2023 &#169;MyLife</p>
+        <div class="ghope">
+            <a href="#" class="at">Developed by Goodhope</a>
+        </div>
+    </div>
+</section>
+<!-- End of Footer Section -->
+
+
+<!-- scroll up -->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="icon-arrow-up"></i>
+ </a>      
+
+
+
+<!-- js -->
+<script src="js/script.js" defer>
+
+</script>
+</body>
+</html>
