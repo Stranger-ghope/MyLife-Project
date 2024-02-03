@@ -1311,6 +1311,7 @@ color: var(--primary-color);
 
 .about__content img {
     width: 100%;
+    height: fit-content;
 }
 .about__contact {
     max-height: 240px;
